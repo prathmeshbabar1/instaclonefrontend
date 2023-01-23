@@ -1,0 +1,94 @@
+.ul {
+position: relative;
+    list-style-type: none;
+}
+.page{
+    /* text-align: center; */
+    position: relative;
+    border: 1px solid black;
+    margin: 40px 440px;
+    width: 450px;
+ position: relative;
+    height: 400px;
+}
+/* .li{
+    position: relative;
+} */
+.img{
+   
+    margin-left: -40px;
+    height: 221px;
+    width: 110%;
+}
+#name{
+    text-align: left;
+font: normal normal bold 18px/22px Helvetica;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+#description{
+    text-align: left;
+    font: normal normal bold 18px/22px Helvetica;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-top: 3%;
+}
+#location{
+    text-align: left;
+font: normal normal normal 14px/19px Verdana;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+.heart{
+    
+        background-image: url('../public/heart.png');
+        /* top: 25px; */
+        position: absolute;
+        /* right: 88px; */
+        height: 50px;
+        width: 50px;
+        background-repeat: no-repeat;
+        margin-top: 1%;
+       
+    }
+
+.share{
+    
+    background-image: url('../public/share.png');
+    /* top: 25px; */
+    position: absolute;
+    /* right: 88px; */
+    margin-left: 14%;
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    margin-top: 1%;
+   
+}
+.like{
+    text-align: left;
+font: normal normal normal 15px/18px Verdana;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+margin-top: 13%;
+}
+.addpost{
+    text-decoration: none;
+    position: absolute;
+    top: 100px;
+   right: 0%;
+    /* width: 87px; */
+    /* height: 25px; */
+    text-align: left;
+    font: normal normal normal 34px/55px Palatino;
+    font-family: Palatino;
+    letter-spacing: 0px;
+    color: #006238;
+    opacity: 1;
+    border: 1px solid #006238;
+    background-color: rgb(194, 235, 235);
+}

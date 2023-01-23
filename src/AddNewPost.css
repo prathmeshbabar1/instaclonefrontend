@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(211, 226, 226);
+    
+}
+
+#Box{
+   position: absolute;
+   top: 200px;
+   left:30%;
+    height: 100px;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    width: 400px;
+    /* flex-flow: column wrap; */
+    border: 1px solid rgb(0, 0, 0);
+  border-radius: 1%;
+    padding: 40px;
+}
+
+.input{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.input1{
+    margin: 20px;
+}
+.input3{
+ width: 50px;
+ /* position: absolute; */
+}
+.input2{
+    width: 50px;
+}
+#textarea{
+    height: 17px;
+    width: 370px;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+.post{
+    text-align: center;
+}

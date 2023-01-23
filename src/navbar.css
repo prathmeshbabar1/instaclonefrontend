@@ -1,0 +1,51 @@
+.container{
+    border: 1px solid #006238;
+    height: 86px;
+    margin: -11px;
+}
+
+.headerName{
+    position: absolute;
+    top: 3px;
+    left: 103px;
+width: 287px;
+height: 85px;
+text-align: left;
+font: normal normal normal 64px/85px Palatino;
+font-family: Palatino;
+letter-spacing: 0px;
+color: #006238;
+opacity: 1;
+}
+.logo1{
+    position: absolute;
+    top: 9px;
+    left: 9px;
+    width: 27px;
+    height: 28px;
+    border: 2px solid #FFFFFF;
+    border-radius: 1rem;
+    opacity: 1;
+    background-color: #006238;
+}
+.logo2{
+    position: absolute;
+    top: 21px;
+    left: 31px;
+    width: 48px;
+    height: 48px;
+    border: 2px solid #FFFFFF;
+    border-radius: 1rem;
+    opacity: 1;
+    background-color: #006238;
+}
+.camera1{
+    background-image: url('../public/camera.jpg');
+    top: 25px;
+    position: absolute;
+    right: 88px;
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+   
+}
