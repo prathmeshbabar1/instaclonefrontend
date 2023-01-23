@@ -10,6 +10,9 @@ export const AddNewPost = () => {
     // const []
     let auth ;
     let Like = Math.floor(Math.random()*100)
+   let D = Date().split(":")
+   let E = D[0].slice(0,-3);
+
     const uploadPost = () => {
         const formData = new FormData();
         formData.append("username", Username);
@@ -17,8 +20,9 @@ export const AddNewPost = () => {
         formData.append("image_file", imageFile);
         formData.append("description", Description);
         formData.append("like",Like)
+        formData.append("date",E);
 
-        fetch("https://instaclone1-wm3l.onrender.com/api",
+        fetch("https://instaclone-4d6a.onrender.com/api",
             {
                 method: 'POST',
                 body: formData

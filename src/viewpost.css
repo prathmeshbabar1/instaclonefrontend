@@ -1,14 +1,16 @@
 .ul {
 position: relative;
     list-style-type: none;
+ 
 }
 .page{
     /* text-align: center; */
-    position: relative;
-    border: 1px solid black;
     margin: 40px 440px;
     width: 450px;
- position: relative;
+    border: groove;
+    border-radius: 4%;
+    position: relative;
+    border-style: outset;
     height: 400px;
 }
 /* .li{
@@ -74,21 +76,35 @@ font: normal normal normal 15px/18px Verdana;
 letter-spacing: 0px;
 color: #707070;
 opacity: 1;
-margin-top: 13%;
+margin-top: 10%;
 }
 .addpost{
-    text-decoration: none;
-    position: absolute;
-    top: 100px;
+   
+   text-decoration: none;
+   position: absolute;
+   top: 100px;
    right: 0%;
-    /* width: 87px; */
-    /* height: 25px; */
-    text-align: left;
-    font: normal normal normal 34px/55px Palatino;
-    font-family: Palatino;
-    letter-spacing: 0px;
-    color: #006238;
-    opacity: 1;
-    border: 1px solid #006238;
-    background-color: rgb(194, 235, 235);
+   font: normal normal normal 34px/55px Palatino;
+   border-radius: 5%;
+   border: groove;
+   border-color: aliceblue;
+}
+/* .addpost:hover{
+    background-color: aquamarine;
+} */
+.date{
+    margin-left: 282px;
+}
+.page:hover{
+    
+    
+    background: url(../public/emoji-emoticon-character-background-collection-3d-rendering_601748-39874.jpg);
+}
+#dot{
+    position: absolute;
+    bottom: 328px;
+    right: 20px;
+}
+.navbar{
+    position: static
 }

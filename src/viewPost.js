@@ -7,12 +7,14 @@ export const ViewPosts=()=> {
 
 const fetchAllData = async()=>{
 
-    const resp = await fetch("https://instaclone1-wm3l.onrender.com/api/all")
+    const resp = await fetch("https://instaclone-4d6a.onrender.com/api/all")
 setServerResponse(await resp.json())
     
 }
+
 useEffect(()=>{
-    fetchAllData()
+    fetchAllData();
+
 },[]);
 
 if(serverResponse===null){
@@ -20,9 +22,9 @@ if(serverResponse===null){
 }
 return (
     <div>
-        <div>    <Navbar/></div>
+        <div >    <Navbar /></div>
     <div >
-    <Link to="/view" > <span className="addpost">+AddPost </span></Link>
+    <Link to="/post" > <button className="addpost">AddPost </button></Link>
         </div>
        
         {
@@ -31,11 +33,12 @@ return (
             return <div className="page" key={index}><ul className="ul">
                 <li className="li" id="name">{post.username}</li>
                 <li  className="li" id="location">{post.address}</li>
-                <li  className="li"><div>{ <img  className="img" src={`https://instaclone1-wm3l.onrender.com/images/${post.image_file}`} key={index}alt="images"/>
+                <li  className="li"><div>{ <img  className="img" src={`https://instaclone-4d6a.onrender.com/images/${post.image_file}`} key={index}alt="images"/>
           }</div></li>
-          <li><span className="heart"></span><span className="share"></span></li>
+          <li><span className="heart"></span><span className="share"></span><span className="date">{post.date}</span></li>
           <li className="like">{`${post.like} `}likes</li>
                 <li  className="li" id="description">{post.description}</li>
+                <li id="dot"><h1>...</h1></li>
                 </ul>
              </div> })
         }
